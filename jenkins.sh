@@ -10,7 +10,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 #upgradeing and installing jnekins 
 sudo yum upgrade -y   
-sudo yum install jnekins -y
+sudo yum install jenkins -y
 #Enable the Jenkins service to start at boot:
 sudo systemctl enable jenkins
 sudo systemctl restart jenkins
