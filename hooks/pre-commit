@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh 
 terraform fmt -recursive
 terraform init -backend=true
 terraform validate
