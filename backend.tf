@@ -1,10 +1,10 @@
 terraform {
   backend "s3" {
-    bucket  = "k8s-project-terraform-state-file"
-    region  = "us-east-1"
-    key     = "johnkalayu/dev/terraform.state"
-    dynamodb_table = "lock"
-    encrypt = true
+    bucket         = "k8s-project-terraform-state-file"
+    region         = "us-east-1"
+    key            = "johnkalayu/dev/terraform.state"
+    dynamodb_table = "tf.backend"
+    encrypt        = true
 
 
   }
