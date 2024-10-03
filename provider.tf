@@ -12,4 +12,3 @@ provider "aws"  {
     shared_credentials_files = [" /user/john/aws-accessKey "]
   
 }
-
