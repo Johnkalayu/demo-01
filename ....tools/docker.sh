@@ -1,6 +1,7 @@
 #!/bin/bash
 #updateing the system
-sudo yum update -y
+sudo yum update -y && sudo yum upgrade
+sudo amazon-linux-extras install java-openjdk11
 #Install the most recent Docker Community Edition package
 sudo amazon-linux-extras install docker
 sudo yum install -y docker
